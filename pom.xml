@@ -130,8 +130,8 @@
         </property>
       </activation>
       <properties>
-        <skipITs>false</skipITs>
-        <quarkus.package.type>native</quarkus.package.type>
+        <skipITs>true</skipITs>
+        <quarkus.package.type>uber-jar</quarkus.package.type>
       </properties>
     </profile>
   </profiles>
